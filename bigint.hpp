@@ -1,10 +1,5 @@
 #pragma once
 
-#include <algorithm>
-#include <cstring>
-#include <iomanip>
-#include <iterator>
-
 #include "bigint_base.hpp"
 
 using bigint = bigint_base<int_fast64_t, 1000000000>;
